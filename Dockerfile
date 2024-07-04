@@ -5,5 +5,5 @@ FROM tomcat:9.0
 COPY target/petclinic.war /usr/local/tomcat/webapps/
 
 # Expose port 8080 (Tomcat's default port)
-EXPOSE 8082
+EXPOSE 80
 
